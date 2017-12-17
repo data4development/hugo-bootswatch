@@ -3,8 +3,6 @@
 @import "lib/flatly.less";
 
 .highlight, .chroma {
-  color: @cs-primary; background: #ffffff;
-
   .c { background-color: @cs-bg-primary} /* Comment */
   .err { color: @cs-danger } /* Error */
   .k { color: @cs-info } /* Keyword */
@@ -78,6 +76,10 @@
 }
 
 .chroma {
+  color: @cs-primary;
+  background: lighten(@cs-bg-primary, 3%);
+  border: 1px solid @cs-bg-primary;
+
   .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; } /* LineTableTD */
   .lntable { ; border-spacing: 0; padding: 0; margin: 0; border: 0; width: 100%; overflow: auto; display: block; } /* LineTable */
   .hl { background-color: @cs-bg-primary; display: block; width: 100% } /* LineHighlight */

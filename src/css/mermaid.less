@@ -1,0 +1,103 @@
+// out: ../../static/css/mermaid.css, sourcemap: true, compress: true
+
+@import "lib/flatly.less";
+
+code.language-mermaid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actor {
+    stroke: @cs-primary;
+    fill: @cs-primary;
+}
+text.actor {
+    fill:@cs-whitetext;
+    stroke:none;
+    font-family: Lato,Roboto;
+}
+
+.actor-line {
+    stroke:@cs-success;
+    stroke-width:1.5;
+}
+
+.messageLine0 {
+    stroke-width:1.5;
+    stroke-dasharray: "2 2";
+    marker-end:"url(#arrowhead)";
+    stroke:@cs-primary;
+}
+
+.messageLine1 {
+    stroke-width:1.5;
+    stroke-dasharray: "2 2";
+    stroke:#00000080;
+}
+
+#arrowhead {
+    fill:@cs-primary;
+
+}
+
+.messageText {
+    fill:@cs-maintext;
+    stroke:none;
+    font-family: Lato,Roboto;
+    font-size:14px;
+}
+
+.labelBox {
+    stroke: @cs-warning;
+    fill: @cs-warning;
+}
+
+.labelText {
+    fill:white;
+    stroke:none;
+    font-family: Lato,Roboto;
+}
+
+.loopText {
+    fill:@cs-warning;
+    stroke:none;
+    font-family: Lato,Roboto;
+}
+
+.loopLine {
+    stroke-width:2;
+    stroke-dasharray: "2 2";
+    marker-end:"url(#arrowhead)";
+    stroke: @cs-warning;
+}
+
+.note {
+    stroke: @cs-success;
+    fill: @cs-success;
+}
+
+.noteText {
+    fill:white;
+    stroke:none;
+    font-family: Lato,Roboto;
+    font-size:14px;
+}
+
+.node {
+    color: white;
+}
+
+.node rect,
+.node polygon {
+    fill:@cs-primary;
+    stroke: @cs-primary;
+}
+
+.node .path {
+    stroke: @cs-success;
+}
+
+.cluster rect {
+    fill: @cs-bg-primary !important;
+    stroke: @cs-bg-primary !important;
+}
