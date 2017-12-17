@@ -1,0 +1,94 @@
+.actor {
+    stroke: #ecf0f1;
+    fill: #ecf0f1;
+}
+text.actor {
+    fill:#212529;
+    stroke:none;
+    font-family: Lato,Roboto;
+}
+
+.actor-line {
+    stroke:#18BC9C;
+    stroke-width:1.5;
+}
+
+.messageLine0 {
+    stroke-width:1.5;
+    stroke-dasharray: "2 2";
+    marker-end:"url(#arrowhead)";
+    stroke:#2C3E50;
+}
+
+.messageLine1 {
+    stroke-width:1.5;
+    stroke-dasharray: "2 2";
+    stroke:#00000080;
+}
+
+#arrowhead {
+    fill:#2C3E50;
+
+}
+
+.messageText {
+    fill:#212529;
+    stroke:none;
+    font-family: Lato,Roboto;
+    font-size:14px;
+}
+
+.labelBox {
+    stroke: #F39C12;
+    fill: #F39C12;
+}
+
+.labelText {
+    fill:white;
+    stroke:none;
+    font-family: Lato,Roboto;
+}
+
+.loopText {
+    fill:#F39C12;
+    stroke:none;
+    font-family: Lato,Roboto;
+}
+
+.loopLine {
+    stroke-width:2;
+    stroke-dasharray: "2 2";
+    marker-end:"url(#arrowhead)";
+    stroke: #F39C12;
+}
+
+.note {
+    stroke: #18BC9C;
+    fill: #18BC9C;
+}
+
+.noteText {
+    fill:white;
+    stroke:none;
+    font-family: 212529;
+    font-size:14px;
+}
+
+.node {
+    color: white;
+}
+
+.node rect,
+.node polygon {
+    fill:#2C3E50;
+    stroke: #2C3E50;
+}
+
+.node .path {
+    stroke: #18BC9C;
+}
+
+.cluster rect {
+    fill: #ecf0f1 !important;
+    stroke: #ecf0f1 !important;
+}

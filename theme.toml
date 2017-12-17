@@ -1,18 +1,18 @@
-name = "Hugo Bootswatch"
+name = "Hugo Bootswatch Docu Flatly"
 license = "MIT"
 licenselink = "https://github.com/nilproductions/hugo-bootswatch/LICENSE.md"
-description = "Bootswatch Theme (Bootstrap 3) for Hugo"
-homepage = "https://github.com/nilproductions/hugo-bootswatch"
+description = "Bootswatch Theme (Bootstrap 3) for Hugo, focused on software documentation in Flatly theme"
+homepage = "https://github.com/data4development/hugo-bootswatch-docu-flatly"
 tags = ["bootstrap", "bootswatch"]
 features = []
 min_version= 0.13
 
 [author]
-  name = "Nicholas Whittier"
-  homepage = "http://imperialwicket.com"
+  name = "Rolf Kleef"
+  homepage = "https://www.drostan.org"
 
 # If porting an existing theme
 [original]
-  name = "Thomas Park"
-  homepage = "http://bootswatch.com"
-  repo = "https://github.com/thomaspark/bootswatch"
+  name = "Nicholas Whittier"
+  homepage = "http://imperialwicket.com"
+  repo = "https://github.com/nilproductions/hugo-bootswatch"

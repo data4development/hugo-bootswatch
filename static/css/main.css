@@ -1,0 +1,30 @@
+body {
+  padding-top: 70px;
+}
+
+img {
+  max-width: 100%;
+}
+
+dd {
+  padding-left: 3em;
+  padding-bottom: 1em;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+pre {
+  color: #7b8a8b;
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+pre code {
+  color: #2c3e50;
+}
